@@ -10,6 +10,6 @@ public interface Action {
 	public static String username = "username";
 
 	//public static String bookdetail = "bookdetail";
-	//This is for lab 4(1).
+	//This is for lab 4.2(1).
 	public String execute() throws Exception;
 }

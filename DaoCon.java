@@ -12,6 +12,6 @@ public class DaoCon {
 		Connection con = null;
 		Class.forName("com.mysql.jdbc.Driver");
 		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "123456");
-		return con;//this is for lab 4(3).
+		return con;//this is for lab 4.2(3).
 	}
 }

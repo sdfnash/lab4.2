@@ -45,7 +45,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     String sql1 = "delete from usermanager where name = author";
     //int row1 = stat.executeUpdate(sql1);
     out.print("数据被删除！");
-    stat.close(); //this is for lab 4(2).
+    stat.close(); //this is for lab 4.2(2).
     conn.close(); %> 
     <tr><a href = index.jsp>回到查询主页</a></tr>
   </body>
